@@ -1,0 +1,512 @@
+.cuadrox
+{
+	padding-top: 0%;
+box-sizing: border-box;
+width: 100%;
+padding: 0%;
+height: 100%;
+padding-left: 3%;
+padding-right: 3%;
+padding-bottom: 3%;
+background-color:#4A1200;
+}
+.cuadro-2
+{
+box-sizing:border-box;
+border:1px solid white;
+width: 25%;
+display: inline-block;
+margin:4%;
+height: 30%;
+	background-color: #F8AD00;
+
+}
+.cuadro-2 img
+{
+margin-top: 5%;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+box-sizing: border-box;
+width: 70%;
+height: 15em;
+}
+.cuadro-2 button
+{
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+font-size: 80%;
+width: 70%;
+}
+
+@media screen and (min-width: 480px) and (max-width: 908px)
+{
+
+.cuadro-2
+{
+box-sizing:border-box;
+	background-color: #F8AD00;
+
+width:39%;
+display: inline-block;
+margin-left: 5%;
+margin-right: 5%;
+height: 30%;
+}
+.cuadro-2 img
+{
+margin-top: 5%;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+box-sizing: border-box;
+width: 70%;
+}
+.cuadro-2 button
+{
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+font-size: 80%;
+width: 70%;
+box-sizing: border-box;;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width: 908px) and (max-width: 1024px)
+{
+
+.cuadro-2
+{
+
+
+width: 25%;
+display: inline-block;
+margin:4%;
+height: 30%;
+	background-color: #F8AD00;
+
+}
+.cuadro-2 img
+{
+margin-top: 5%;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+box-sizing: border-box;
+width: 70%;
+}
+.cuadro-2 button
+{
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+font-size: 80%;
+width: 70%;
+}
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 480px)
+{
+.cuadro-2
+{
+box-sizing:border-box;
+
+width: 90%;
+display: inline-block;
+margin:5%;
+height: 30%;
+	background-color: #F8AD00;
+
+}
+.text-trunacate{
+	font-size: 70%;
+}
+
+
+}
+
+.navbar{
+	background-color: #F8AD00;
+}
+
+
+
+
+#h1-producto{
+	margin-top: 5%;
+	margin-top: 0%;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.aside1 li{
+	font-size: 1.75ex;
+
+}
+
+
+
+.aside1
+{
+width: 25%;
+background: #F8AD00;
+color: #4A1200;
+display: inline-block;
+padding: 2%;
+margin: 2% ;
+float: left;
+font-family: "Ginebra";
+font-size: 2.1em;
+text-align: justify;
+}
+.centro1
+{
+background-color:#F67016 ;
+padding:2%;
+box-sizing: border-box;
+display:inline-block;
+width: 100%;
+}
+.imagen-fondo
+{
+margin-top: 2%;
+width: 67%;
+
+margin-left: 2%;
+margin-right: 2%;
+height: 35em;
+float: right;
+
+}
+.imagen-fondo img
+{
+
+width: 100%;
+
+ background-size: cover;
+ height: 100%;
+
+
+}
+.carousel-item{
+	height: 35em;
+}
+
+
+
+@media screen and (max-width: 768px) 
+{
+.imagen-fondo img
+{
+
+width: 100%;
+background-size: cover;}
+
+.imagen-fondo
+{
+margin-top: 2%;
+width: 96%;
+
+margin-left: 2%;
+margin-right: 2%;
+height: 35em;
+float: right;
+
+}
+
+.aside1
+{
+width: 96%;
+background-color:#F8AD00;
+box-sizing: border-box;
+padding: 1%;
+margin: 2% ;
+border: 1px double white;
+height: 100%;
+
+
+}
+}
+
+
+
+
+ 
+
+
+
+
+
+.encabezadocarrito{
+
+}
+
+.item {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.titulo {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600px;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.precio{
+	text-align:  center;
+}
+
+.item-details > .precio {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+.shopping-cart{
+	background-color: #F8AD00;
+}
+
+.text-center{
+	color: #4A1200;
+}
+.comprarButton{
+	background-color: #E07B03;
+	color: white;
+	border-color: yellow;
+
+}
+
+.texto{
+	border:2px double white;
+	font-size: 100%;
+}
+
+.text-truncate{
+	font-size: 100%;
+}
+
+
+
+.text-con {
+	font-size: 100%;}
+	.textoconocenos{
+		font-size: 110%;
+		font-family: Arial;
+		text-align: justify;
+	}
+	#fabrica{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+		height: 20em;
+		box-sizing: border-box;
+	}
+	.conoce{
+		text-align: center;
+	}
+	.fondoconocenos{
+		background-color: #DD7623;
+	}
+	.logo{
+		width: 7.5%;
+		margin-right:5%;
+				margin-left:5%;
+
+	}
+	.pie{
+		margin-top: 0%;
+		background: #DE7F45;
+		padding: 2%;
+		box-sizing: border-box;
+	}
+	.container-fluid{
+		margin-bottom: 0%;
+	}
+	#h3{
+		text-align: center;
+		font-style: italic;
+		font-family: Brush Script MT;
+		font-size:200%;
+	}
+
+/*#D{
+class="textoconocenos"
+	https://www.youtube.com/watch?v=dJHrKuj4Ofk
+	margin-top:2%; 
+ margin-left: 7.5%;
+	background: #4A1200;
+	padding: 3px red;
+	float: left;
+box-sizing: border-box;
+border:5px double white;
+height: 100%;
+}
+#D nav{
+	border:5px double #F8AD00;
+	padding: 0;
+	margin-bottom: 5%;
+}
+li a{
+	font-size:130%;
+
+}
+body{
+	background: #4A1200;
+	border-color: 3px double #F8AD00; 
+}
+#B{
+	background: #F8AD00;
+}
+nav{
+	border:5px red;
+}
+#menu{
+	background:#4A1200;
+
+margin: #F8AD00;
+width: 80%;
+
+}
+#menu ul li a{
+	color:white;
+	border: red;
+	font-size: 120%;
+
+}
+#menu ul  {
+	color:white;
+
+}
+#logo img{
+
+height: 5%;
+width:  15%;
+float: left;
+
+}
+.beneficios h2{
+	color:green;
+	width: 100%;
+}
+.beneficios {
+	
+	color:white;
+	border:#F8AD00;
+font-size: 90%;
+text-align: justify;
+	border: 5px double #F8AD00 ;
+	float: left;
+padding: 1%;
+box-sizing: border-box;
+
+	
+}
+
+#B3.beneficios{
+	border: 5px double #F8AD00;
+
+}
+#imgfondo img{
+float:  right;
+	width: 20%;
+	height: 20%; 
+}
+#IB{
+	width: 70%;
+	float: left;
+
+	margin-left: 3%;
+	margin-right: 2%;
+}
+.barra{
+	width: 25%;
+	text-align: justify;
+}
+.BA1{
+
+}
+#C1{
+	background: yellow;
+	height: 100px;
+	width: 50px;
+	border: 3px double red;
+
+
+
+}
+#producto1{
+width: 80%;
+border:50% double yellow;
+margin: 10%;
+
+}
+#producto2{
+width: 80%;
+border:50% double yellow;
+margin: 15%;
+height: 20%;
+
+
+}
+
+.cuadro{
+	width: 20%;
+height: 40%;	
+	margin-left: 4%;
+
+ margin-top: 5%;
+float: left;
+	background: yellow;
+}
+h1{
+	color: white;
+	font-family: "arial";
+}
+
+.boton{
+	
+}.*/
